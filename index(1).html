@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+         <meta charset="UTF-8">
+         <title>All Star Code</title>
+         <link rel="stylesheet" href="style.css">
+         
+
+    </head>
+    <body>
+        <h1>Hi my name is Oscar</h1>
+        <ul>
+                <h1>Welcome to my website</h1>
+
+                <h2> here are some facts about myself</h2>
+                <p>I like to compare myself to the Big O</p>
+                <img src= "thebigo.jpg" width= "200">
+            <li>I lived in Ecuador for 7 year</li>
+            <img src= "ecua.jpg" width= "300">
+            <li>I play squash and I'm in a team</li>
+            <img src= "squash.jpg" width= "300">
+            <li>My favorate rapper of all time is Travis Scott</li>
+            <img src= "trav.jpg" width= "300">
+            
+            <li>My three favorite instructors at All Star Code are Khye, Abhishek, and Denzell</li>
+            <div>
+                <img src= "khye.png" width= "300">
+                <img src= "ab.jfif" width= "300">
+                <img src= "den.jpg" width= "300">
+            </div>
+        </ul>
+           
+
+         <h3>Characteristics I have</h3>
+         <ul> <li> I am very fun and energetic person</li>
+            <li>I care for others</li>
+            <li>I am a caring a nd loving person</li>
+            <li>I am a very optimistic person</li>
+         </ul>
+    
+         <footer>
+            	&copy; 2019
+        </footer>
+
+        <p><a href="https://www.instagram.com/oscar_henk/?hl=en">click here to go to my Instagram</a></p>
+
+        </body>
+
+
+        <script>
+            
+            let body = document.querySelector("body");
+
+            // make a changeColor function
+            function changeColor() {
+                // generate 3 random numbers between o and 255
+                let num1= parseInt(Math.random() * 255);
+                let num2= parseInt(Math.random() * 255);
+                let num3= parseInt(Math.random() * 255);
+
+                // change backgroundColor of colorDiv 
+                body.style.backgroundColor = "rgb(" + num1 + ","+ num2 + ","+ num3 + ")";
+                // setTimeout
+                setTimeout(changeColor,1000);
+            }
+
+            // call the changeColor function
+            changeColor();
+    
+        </script>
+</html>
