@@ -1,0 +1,17 @@
+h1{
+    background-color:black;
+    padding: 15px;
+    font-size:50px;
+    margin: 0px 25px 0px 25px;    
+    color: green;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size:20px;
+    color:black;
+}
+

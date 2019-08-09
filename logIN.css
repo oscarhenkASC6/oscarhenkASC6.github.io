@@ -1,0 +1,16 @@
+#intruder {
+    display: none;
+   
+}
+
+#intruder img{
+    width:100%;
+}
+
+body{
+    background-image: url("rick.jpg");
+    margin: 0px;
+    
+}
+
+
